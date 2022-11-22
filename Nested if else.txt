@@ -1,0 +1,27 @@
+Example 1
+
+age = int(input("age: "))
+if age >= 18:
+    print("You are qualified!")
+else:
+    print("You are a minor")
+
+Example 2
+
+num = int(input("number: "))
+if num >= 0:
+    print("Positive")
+else:
+    print("Negative")
+
+
+Example 3
+
+grade = int(input("Grade: "))
+if grade >= 75:
+    print("Passed")
+elif grade == 74:
+    print("Remedial")
+elif grade <= 74:
+    print("Failed")
+
