@@ -1,0 +1,153 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOLnK0Brl5a/PJE1Pao+LzF",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/kennethculalic/CPE-21A-PLD-1-2/blob/main/Conditional_Statement_in_Python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Example 1"
+      ],
+      "metadata": {
+        "id": "m9v4FdfRgLgY"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Enter a number:\")\n",
+        "x = int(input())\n",
+        "if x>18:\n",
+        "  print(\"Qualified\")\n",
+        "elif x<18:\n",
+        "  print(\"Not Qualified\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "x9jmhGE6gM7z",
+        "outputId": "98a2cd87-9dd0-4af9-8b47-1327af0037c9"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number:\n",
+            "69\n",
+            "Qualified\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Example 2"
+      ],
+      "metadata": {
+        "id": "OKI_vgD8gaRv"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Enter a number:\")\n",
+        "x = int(input())\n",
+        "if x>0:\n",
+        "  print(\"POSITIVE\")\n",
+        "elif x==0:\n",
+        "  print(\"ZERO\")\n",
+        "else:\n",
+        "  print(\"NEGATIVE\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NAfVGGOAgbqj",
+        "outputId": "95e95b4b-05dd-4aa9-8e35-550c15c93d4d"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number:\n",
+            "3\n",
+            "POSITIVE\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Example 3"
+      ],
+      "metadata": {
+        "id": "bjxwljmVgmqL"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Enter a number:\")\n",
+        "x = int(input())\n",
+        "if x<0:\n",
+        "  print(\"Not Accepted\")\n",
+        "elif x<75:\n",
+        "  print(\"Failed\")\n",
+        "if x>75:\n",
+        "  print(\"Passed\")\n",
+        "elif x==75:\n",
+        "  print(\"Remedial\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JWc_QQMjgoN8",
+        "outputId": "698d8096-cce2-4d63-cae8-980b9b6aec39"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number:\n",
+            "75\n",
+            "Remedial\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
