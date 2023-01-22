@@ -1,0 +1,67 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOLJ+MYhs5U+gKU+zOvSbRr",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/kennethculalic/CPE-21A-PLD-1-2/blob/main/Object_and_Class\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "E2YHZ-sxagIg",
+        "outputId": "2ec4feb1-f367-4a43-a6cc-13cc81fe355c"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My personal info are all here\n"
+          ]
+        }
+      ],
+      "source": [
+        "class Person:\n",
+        "  def __init__(self,name,age,birthdate):       #object and class constructor\n",
+        "    self.name = name\n",
+        "    self.age = age\n",
+        "    self.birthdate = birthdate\n",
+        "\n",
+        "  def info(self):                 \n",
+        "    return \"My personal info are all here\"      #method constructor\n",
+        "\n",
+        "class Student(Person):                          #inheritance\n",
+        "  pass\n",
+        "\n",
+        "person = Student(\"Kenneth\", 19,\"November 3, 2003\")     #naming object\n",
+        "\n",
+        "print(person.info())\n"
+      ]
+    }
+  ]
+}
