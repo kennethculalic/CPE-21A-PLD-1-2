@@ -1,0 +1,187 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMHwjtmObW8xyRiMZBGkzux",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/kennethculalic/CPE-21A-PLD-1-2/blob/main/Intro%20to%20python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Indentation"
+      ],
+      "metadata": {
+        "id": "m9v4FdfRgLgY"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if 5>3:\n",
+        "  print (\"5 is greater that 3\")  #This is a comment"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xDYZGz8fi2pK",
+        "outputId": "dd8dc5c0-0e3f-4a7d-b619-6780d431bafa"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5 is greater that 3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#variable with a single value\n",
+        "x=5\n",
+        "y=3\n",
+        "if x"
+      ],
+      "metadata": {
+        "id": "UXpuDGT6jGO2"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Casting and Type() Function "
+      ],
+      "metadata": {
+        "id": "K430LfcCjQSh"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "f = int(4)   #integer\n",
+        "g=float(4)   #decimal/functional\n",
+        "\n",
+        "print(f)\n",
+        "print(g)\n",
+        "\n",
+        "print(type(f))\n",
+        "print(type(g))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nS0uczR4jSVG",
+        "outputId": "f8b1a450-679e-448c-a641-2c1e32de0c93"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "4\n",
+            "4.0\n",
+            "<class 'int'>\n",
+            "<class 'float'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Double qoute or single qoute "
+      ],
+      "metadata": {
+        "id": "f3QoTrACjVtv"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = \"Kenneth\"\n",
+        "name1 = 'Culalic'\n",
+        "\n",
+        "print(name)\n",
+        "print(name1)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CwgW2mOijZpi",
+        "outputId": "6468757d-370f-47d3-b371-4caabeb45476"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Kenneth\n",
+            "Culalic\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Case Sensitive"
+      ],
+      "metadata": {
+        "id": "rRS1WbEbjmVQ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 'Kenneth'\n",
+        "print(a)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "H8Jc8YRrjoz6",
+        "outputId": "e9c5593d-ba5d-4987-d1f5-6f0efbd1d650"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Kenneth\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
